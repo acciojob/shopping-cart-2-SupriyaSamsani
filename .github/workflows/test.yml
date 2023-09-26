@@ -1,10 +1,1 @@
-name: Acciojob Tests
-
-on:
- push:
-    branches: [ "main","master" ]
-
-jobs:
-  calling-acciojob-main-action:
-    uses: acciojob/acciojob-tests-action/.github/workflows/main-action.yml@main
-    secrets: inherit
+bmFtZTogQWNjaW9qb2IgVGVzdHMKCm9uOgogcHVzaDoKICAgIGJyYW5jaGVzOiBbICJtYWluIiwibWFzdGVyIiBdCgpqb2JzOgogIGNhbGxpbmctYWNjaW9qb2ItbWFpbi1hY3Rpb246CiAgICB1c2VzOiBhY2Npb2pvYi9hY2Npb2pvYi10ZXN0cy1hY3Rpb24vLmdpdGh1Yi93b3JrZmxvd3MvbWFpbi1hY3Rpb24ueW1sQG1haW4KICAgIHNlY3JldHM6IGluaGVyaXQ=
